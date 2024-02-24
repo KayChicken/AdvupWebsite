@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '../public/fonts/fonts.css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+svg {
+    display: inline-block;
+}
+
+body {
+    height: 100vh;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+
+.logos>svg {
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.logos {
+    animation: logosSpin 35s infinite linear;
+}
+
+
+.logos-line {
+    transform-origin: center;
+    transform: rotateZ(-1deg);
+}
+
+@keyframes logosSpin {
+    from {
+        transform: translateX(0%);
+    }
+
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+.tag-row div:not(:nth-child(1)) {
+    margin-left: 15px;
+}

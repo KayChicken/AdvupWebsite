@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'PlayenSans';
+    src: url(./PlayenSans/PlayenSans-Black.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'PlayenSans';
+    src: url(./PlayenSans/PlayenSans-Light.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'PlayenSans';
+    src: url(./PlayenSans/PlayenSans-Medium.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: 'PlayenSans';
+    src: url(./PlayenSans/PlayenSans-Regular.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'PlayenSans';
+    src: url(./PlayenSans/PlayenSans-Bold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 800;
+}
