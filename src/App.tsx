@@ -6,7 +6,7 @@ import Home from './components/Main/Home/Home';
 
 function App() {
   return (
-    <div className='container mx-auto max-w-[1340px]'>
+    <div className=''>
       <Header />
       <Main>
         <Home />

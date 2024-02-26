@@ -7,7 +7,7 @@ interface MainProps {
 
 const Main = ({ children }: MainProps) => {
     return (
-        <main>
+        <main className='mt-[6.25rem]'>
             {children}
         </main>
     );

@@ -34,3 +34,44 @@
     font-style: normal;
     font-weight: 800;
 }
+
+
+
+
+@font-face {
+    font-family: 'ProxiNova';
+    src: url(./ProximaNova/proxima_nova_black.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 800;
+}
+
+
+
+@font-face {
+    font-family: 'ProxiNova';
+    src: url(./ProximaNova/proxima_nova_bold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+
+@font-face {
+    font-family: 'ProxiNova';
+    src: url(./ProximaNova/proxima_nova_regular.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'ProxiNova';
+    src: url(./ProximaNova/proxima_nova_light.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+
+
+

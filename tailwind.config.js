@@ -11,10 +11,12 @@ module.exports = {
       'red': "#FF3F62",
       'slate': "#e2e8f0",
       'white': "#FFFFFF",
-      'lightGray' : "#161616"
+      'lightGray' : "#161616",
+      'transparent' : 'transparent'
     },
     fontFamily: {
-      'playenSans': "PlayenSans"
+      'playenSans': "PlayenSans",
+      'proxiNova' : "ProxiNova"
     }
   },
   variants: {},

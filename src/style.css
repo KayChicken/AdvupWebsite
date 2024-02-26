@@ -53,3 +53,23 @@ body {
 .tag-row div:not(:nth-child(1)) {
     margin-left: 15px;
 }
+
+
+.element {
+    position: relative;
+}
+
+.element:not(:last-child)::after {
+    position: relative;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: #404040;
+    right: -60px;
+}
+
+
+
+.footer-logos > svg:not(:last-child) {
+    margin-right: 0.625rem;
+}

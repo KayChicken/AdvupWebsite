@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <header className='relative flex justify-between items-center py-[1.1875rem] after:content-[""] after:h-[1px] after:bg-slate after:absolute after:w-[100vw] after:bottom-0 after:left-[calc(50%-50vw)] '>
+        <header className='relative container mx-auto max-w-[1340px] flex justify-between items-center py-[1.1875rem] after:content-[""] after:h-[1px] after:bg-slate after:absolute after:w-[100vw] after:bottom-0 after:left-[calc(50%-50vw)] '>
             <img src="/img/logo.png" alt="logo" />
             <nav className='flex flex-1 ml-[1.875rem]'>
                 <ul className='flex'>

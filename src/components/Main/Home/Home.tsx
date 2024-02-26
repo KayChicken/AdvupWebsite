@@ -1,3 +1,5 @@
+import Advantages from './Advantages/Advantages';
+import ApplicationForm from './ApplicationForm/ApplicationForm';
 import Cases from './Cases/Cases';
 import Welcome from './Welcome/Welcome';
 
@@ -6,6 +8,8 @@ const Home = () => {
         <>
             <Welcome />
             <Cases />
+            <Advantages />
+            <ApplicationForm />
         </>
     );
 };

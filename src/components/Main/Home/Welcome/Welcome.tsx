@@ -15,9 +15,9 @@ import XbetLogo from '../../../Logos/XbetLogo';
 
 const Welcome = () => {
     return (
-        <section>
+        <section className='container mx-auto max-w-[1340px]'>
             <p className='text-gray'>Рекламное агентсво ADVUP</p>
-            <div className='flex items-center '>
+            <div className='flex items-center mt-[1rem]'>
                 <h1 className='text-[5.125rem] grow shrink basis-[753px] leading-[5rem] font-playenSans font-light'>Новый поток клиентов Вашему продукту</h1>
                 <div className='relative grow shrink basis-[545px]'>
                     <svg width="100%" height="124" viewBox="0 0 545 124" fill="none" xmlns="http://www.w3.org/2000/svg">
