@@ -23,7 +23,7 @@ const Welcome = () => {
                     <svg width="100%" height="124" viewBox="0 0 545 124" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 0.5L545 10.5V32L41 124L0 0.5Z" fill="#FF3F62" />
                     </svg>
-                    <button className='absolute right-[-10px] lg:top-[-10px] top-[-1px] px-[1.5625rem] py-[0.9375rem] text-white bg-black rounded-[2rem]'>
+                    <button className='absolute font-proxiNova font-semibold leading-[1.5rem] border-[3px] text-[1.25rem]  border-black right-[-10px] lg:top-[-10px] top-[-1px] px-[1.5625rem] py-[0.8rem] text-white bg-black rounded-[2rem] transition duration-200 hover:border-gray'>
                         Приступим
                     </button>
                 </div>

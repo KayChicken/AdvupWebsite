@@ -11,12 +11,24 @@ module.exports = {
       'red': "#FF3F62",
       'slate': "#e2e8f0",
       'white': "#FFFFFF",
-      'lightGray' : "#161616",
-      'transparent' : 'transparent'
+      'lightGray': "#161616",
+      'transparent': 'transparent',
+      'gray-400': '#404040'
     },
     fontFamily: {
       'playenSans': "PlayenSans",
-      'proxiNova' : "ProxiNova"
+      'proxiNova': "ProxiNova"
+    },
+    keyframes: {
+      down: {
+        '0%': { top: '-50px' },
+        '100%': { top: '-30px' },
+      }
+
+    },
+
+    animation: {
+      down: 'down 300ms linear',
     }
   },
   variants: {},

@@ -20,7 +20,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-            <button className='py-[0.625rem] px-[0.9375rem] border border-black rounded-[1.25rem]'>
+            <button className='font-proxiNova font-semibold py-[0.625rem] px-[0.9375rem] border border-black rounded-[1.25rem] hover:bg-black hover:text-white transition duration-300'>
                 Оставить заявку
             </button>
 
