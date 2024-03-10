@@ -4,7 +4,12 @@
 @import '../public/fonts/fonts.css';
 
 
+
+
+
+
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,7 +44,9 @@ body {
 
 .logos-line {
     transform-origin: center;
-    transform: rotateZ(-1deg);
+    transform: rotateZ(-1deg) translateZ(0); 
+    width: calc(100% - 1px);
+  
 }
 
 @keyframes logosSpin {
@@ -76,4 +83,324 @@ body {
 
 .footer-logos > svg:not(:last-child) {
     margin-right: 0.625rem;
+}
+
+
+
+@media (max-width : 1536px) {
+    html {
+        font-size: 15px;
+    }
+
+    .svg-img-left {
+        display: none;
+    }
+
+
+    .slider {
+        display : grid;
+        grid-template-columns: repeat(2,19.875rem);
+        justify-content: space-evenly;
+        row-gap: 3.5rem;
+    }
+
+    .views {
+        justify-content: center;
+    }
+
+    .cases-container {
+        flex-direction: column;
+    
+    }
+
+    .cases-title {
+        align-items: center;
+        text-align: center;
+    }
+
+    .tag-row {
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        justify-content: center;
+    }
+
+    .cases-more-btn {
+        margin: 1rem  auto 0rem auto;
+    
+    }
+
+    .case-img {
+        margin: 1rem auto 0rem auto;
+    }
+
+    .element {
+        padding: 0 50px;
+    }
+
+
+    .element .black-box { 
+        width: 52px;
+        height: 52px;
+    };
+
+}
+
+
+@media (max-width : 1280px) {
+    html {
+        font-size: 15px;
+    }
+
+    .svg-left-convert {
+        height: 500px;
+        width: 400px;
+    }
+
+    .svg-right-convert {
+        height: 400px;
+        width: 300px;
+    }
+
+    .views {
+        margin-top: 4rem;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 3rem;
+    }
+
+    .views .element {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .views .element .black-box {
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media (max-width : 1024px) {
+    html {
+        font-size: 14px;
+    }
+
+    .svg-left-convert {
+        height: 400px;
+        width: 300px;
+    }
+
+    .svg-right-convert {
+        height: 400px;
+        width: 300px;
+    }
+
+    .svg-stick {
+        display: none;
+    }
+
+    .svg-decoration {
+        display: none;
+    }
+
+    .bg-substract {
+        background-size: 12rem;
+    }
+    
+    
+    .bg-svg-explosive {
+        background-size: 12rem;
+    }
+    
+    
+    .bg-svg-multyply {
+        background-size: 12rem;
+    }
+    
+    
+    .bg-svg-cursive {
+       background-size: contain;
+       background-position: right bottom;
+       
+    }
+
+}
+
+
+@media (max-width : 890px) {
+
+    html {
+        font-size: 13px;
+    }
+
+    .svg-left-convert {
+        height: 250px;
+        width: 250px;
+    }
+
+    .svg-right-convert {
+        height: 300px;
+        width: 250px;
+    }
+
+    .svg-stick {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 13px;
+    }
+
+
+    .svg-left-convert {
+        height: 200px;
+        width: 250px;
+    }
+
+    .svg-right-convert {
+        height: 200px;
+        width: 250px;
+      
+    }
+
+}
+
+
+
+
+@media (max-width: 640px) {
+    html {
+        font-size: 13px;
+    }
+
+
+    .svg-left-convert {
+        display: none;
+    }
+
+    .svg-right-convert {
+        display: none;
+    }
+
+    
+    .slider {
+        display : grid;
+        grid-template-columns: repeat(1,19.875rem);
+        justify-content: space-evenly;
+        row-gap: 3.5rem;
+    }
+
+    .bg-substract {
+        background-size: 10rem;
+    }
+    
+    
+    .bg-svg-explosive {
+        background-size: 10rem;
+    }
+    
+    
+    .bg-svg-multyply {
+        background-size: 10rem;
+    }
+    
+    
+    .bg-svg-cursive {
+      
+    }
+}
+
+
+@media (max-width : 600px) {
+
+    .header-navigation {
+        display: none;
+        background-color: #FF3F62; 
+        position : fixed;
+        right :0px;
+        padding : 1rem;
+        z-index : 10;
+        top : 0;
+        color : #fff;
+        border-radius: 5px;
+        max-width: 300px;
+        width: 100%;
+        height : 400px;
+        font-size: 1.6rem;
+        animation: open-burger 1s ease-in-out;
+       
+    }
+
+    .burger-menu {
+        cursor: pointer;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .header-navigation.open {
+        display: block;
+    }
+
+
+    
+    .hero-heading {
+        font-size: 3.6rem;
+        line-height: 4rem;
+    }
+
+    .hero-btn {
+        margin-top: 3rem !important;
+    }
+}
+
+
+
+@keyframes open-burger {
+   0% {
+    right: -100%;
+   }
+
+
+   100% {
+    right: 0;
+   }
+}
+
+
+/* SVG */
+
+
+
+
+
+.bg-substract {
+    background-image: url('../public/img/Subtract.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+}
+
+
+.bg-svg-explosive {
+    background-image: url('../public/img/Explosive.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+
+.bg-svg-multyply {
+    background-image: url('../public/img/MultiplyIcon.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+
+.bg-svg-cursive {
+    background-image: url('../public/img/Cursive.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
 }

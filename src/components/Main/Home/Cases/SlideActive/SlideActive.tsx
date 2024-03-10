@@ -4,14 +4,16 @@ interface SlideActiveProps {
     title: string,
     description: string,
     img: string,
-    active?: boolean
+    active?: boolean,
+  
+
 }
 
 
 
 const SlideActive = ({ title, description, img, active }: SlideActiveProps) => {
     return (
-        <div>
+        <>
             <div className={`relative border-x-[1px] border-t-[1px] ${active ? 'bg-red border-red' : 'bg-black border-gray-400'} p-[1.5625rem]`}>
                 {active &&
                     <svg className='animate-down absolute top-[-30px] left-[50%] translate-x-[-50%]' width="73" height="49" viewBox="0 0 73 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +27,8 @@ const SlideActive = ({ title, description, img, active }: SlideActiveProps) => {
             <div className='max-w-[19.875rem]'>
                 <img className='w-full object-contain' src={`/img/slider/${img}`} alt={`${img}`} />
             </div>
-        </div>
+        </>
+
     );
 };
 

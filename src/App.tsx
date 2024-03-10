@@ -6,13 +6,13 @@ import Home from './components/Main/Home/Home';
 
 function App() {
   return (
-    <div className=''>
+    <>
       <Header />
       <Main>
         <Home />
       </Main>
       <Footer />
-    </div>
+    </>
   );
 }
 

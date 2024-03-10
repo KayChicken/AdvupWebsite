@@ -2,18 +2,18 @@ import React from 'react';
 
 const ApplicationForm = () => {
     return (
-        <section className='relative z-[1] bg-black pb-[5rem]'>
+        <section className='relative z-[1] bg-black pb-[5rem] px-[0.9375rem]'>
 
-            <svg className='absolute left-0 top-0 z-[-1]' width="500" height="1147" viewBox="0 0 500 1147" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='svg-stick absolute left-0 top-0 z-[-1]' width="500" height="1147" viewBox="0 0 500 1147" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M-222.961 167.15L337.545 -73.355L499.139 -36.9877L0.973098 230.26L136.636 471.381L-156.94 639.987L-7.56763 1146.02L-519.953 1077.1L-397.37 518.349L-96.0934 370.881L-222.961 167.15Z" fill="#0C0C0C" />
             </svg>
 
 
-            <svg className='absolute left-0 bottom-0 z-[-1]' width="793" height="100%" viewBox="0 0 793 1265" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='svg-stick absolute left-0 bottom-0 z-[-1]' width="793" height="100%" viewBox="0 0 793 1265" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M101.446 304.88L627.331 -16.8978L792.5 -2.99996L331.966 336.968L497.637 561.141L227.664 772.703L440.928 1262.26L-76.8441 1265.01L-26.7462 683.882L253.588 492.563L101.446 304.88Z" fill="#0C0C0C" />
             </svg>
 
-            <svg className='absolute left-0 top-[275px] z-[-1]' width="632" height="872" viewBox="0 0 632 872" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='svg-left-convert absolute left-0 top-[275px] z-[-1]' width="632" height="700" viewBox="0 0 632 872" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M-164.777 564.567L-78.1432 201.527L469.162 529.352L364.221 788.504L-164.777 564.567Z" fill="#FF3F62" />
                 <path d="M204.939 586.749L-78.1432 201.527L469.162 529.352L204.939 586.749Z" fill="#7B1527" />
                 <path d="M455.755 260.59L-78.1429 201.527L469.162 529.352L455.755 260.59Z" fill="#B3203A" />
@@ -23,7 +23,7 @@ const ApplicationForm = () => {
             </svg>
 
 
-            <svg className='absolute right-0 top-[200px] z-[-1]' width="453" height="544" viewBox="0 0 453 544" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='svg-right-convert absolute right-0 top-[200px] z-[-1]' width="453" height="544" viewBox="0 0 453 544" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M491.993 309.376L400.131 104.533L113.407 359.571L204.452 500.969L491.993 309.376Z" fill="#FF3F62" />
                 <path d="M275.985 363.896L400.131 104.533L113.407 359.571L275.985 363.896Z" fill="#7B1527" />
                 <path d="M91.227 199.238L400.131 104.533L113.407 359.571L91.227 199.238Z" fill="#B3203A" />
@@ -33,7 +33,7 @@ const ApplicationForm = () => {
             </svg>
 
 
-            <svg className='absolute right-0 bottom-0 z-[-2]' width="691" height="100%" viewBox="0 0 691 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='svg-stick absolute right-0 bottom-0 z-[-2]' width="691" height="100%" viewBox="0 0 691 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.487204 371.209L152.235 -334.096L296.37 -459.807L212.299 206.338L533.295 255.455L494.305 656.185L1076.18 886.921L663.213 1319.6L215.723 793.633L280.01 401.163L0.487204 371.209Z" fill="#0C0C0C" />
             </svg>
 
